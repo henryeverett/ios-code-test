@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67D926319BB4DB509992E784 /* Pods_FarmdropTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FF9DB5A95CCA417BA78835 /* Pods_FarmdropTestTests.framework */; };
+		83C1AE591E4B37220033BE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE581E4B37220033BE22 /* AppDelegate.swift */; };
+		83C1AE621E4B37220033BE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C1AE611E4B37220033BE22 /* Assets.xcassets */; };
+		83C1AE701E4B37220033BE22 /* FarmdropTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE6F1E4B37220033BE22 /* FarmdropTestTests.swift */; };
+		83C1AE851E4B3BCC0033BE22 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE841E4B3BCC0033BE22 /* Producer.swift */; };
+		83C1AE871E4B3C740033BE22 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE861E4B3C740033BE22 /* Network.swift */; };
+		83C1AE891E4B3E970033BE22 /* Network+Producers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE881E4B3E970033BE22 /* Network+Producers.swift */; };
+		83C1AE8D1E4B47240033BE22 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE8C1E4B47240033BE22 /* Image.swift */; };
+		83C1AE901E4B490E0033BE22 /* ProducerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE8F1E4B490E0033BE22 /* ProducerListViewModel.swift */; };
+		83C1AE921E4B4A240033BE22 /* ProducerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE911E4B4A240033BE22 /* ProducerListViewController.swift */; };
+		83C1AE9A1E4B4E700033BE22 /* ProducerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C1AE991E4B4E700033BE22 /* ProducerCell.xib */; };
+		83C1AE9C1E4B50890033BE22 /* ProducerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE9B1E4B50890033BE22 /* ProducerCell.swift */; };
+		83C1AEA01E4B5EAC0033BE22 /* ProducerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AE9E1E4B5EAC0033BE22 /* ProducerViewController.swift */; };
+		83C1AEA11E4B5EAC0033BE22 /* ProducerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C1AE9F1E4B5EAC0033BE22 /* ProducerViewController.xib */; };
+		83C1AEA31E4B5F1F0033BE22 /* ProducerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AEA21E4B5F1F0033BE22 /* ProducerViewModel.swift */; };
+		83C1AEDD1E4B97E60033BE22 /* FarmdropModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AEDB1E4B97E60033BE22 /* FarmdropModel.xcdatamodeld */; };
+		83C1AEE01E4BD3F70033BE22 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AEDF1E4BD3F70033BE22 /* ResultsTableViewController.swift */; };
+		83C1AEE21E4BDABF0033BE22 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1AEE11E4BDABF0033BE22 /* ResultsViewModel.swift */; };
+		8F40DE6288D8764B98AEE2A4 /* Pods_FarmdropTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A4F49901051CAF96A2704A /* Pods_FarmdropTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C1AE6C1E4B37220033BE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C1AE4D1E4B37220033BE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C1AE541E4B37220033BE22;
+			remoteInfo = FarmdropTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FF9DB5A95CCA417BA78835 /* Pods_FarmdropTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmdropTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9E5783DE6A0928FB0D070C /* Pods-FarmdropTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmdropTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FarmdropTestTests/Pods-FarmdropTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		31BA3A86B97052B35C831651 /* Pods-FarmdropTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmdropTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FarmdropTest/Pods-FarmdropTest.debug.xcconfig"; sourceTree = "<group>"; };
+		594E267A6A2C5D5758871F3C /* Pods-FarmdropTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmdropTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FarmdropTestTests/Pods-FarmdropTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C1AE551E4B37220033BE22 /* FarmdropTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmdropTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C1AE581E4B37220033BE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C1AE611E4B37220033BE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C1AE661E4B37220033BE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C1AE6B1E4B37220033BE22 /* FarmdropTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmdropTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C1AE6F1E4B37220033BE22 /* FarmdropTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmdropTestTests.swift; sourceTree = "<group>"; };
+		83C1AE711E4B37220033BE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C1AE841E4B3BCC0033BE22 /* Producer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
+		83C1AE861E4B3C740033BE22 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		83C1AE881E4B3E970033BE22 /* Network+Producers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+Producers.swift"; sourceTree = "<group>"; };
+		83C1AE8C1E4B47240033BE22 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		83C1AE8F1E4B490E0033BE22 /* ProducerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerListViewModel.swift; sourceTree = "<group>"; };
+		83C1AE911E4B4A240033BE22 /* ProducerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerListViewController.swift; sourceTree = "<group>"; };
+		83C1AE991E4B4E700033BE22 /* ProducerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProducerCell.xib; sourceTree = "<group>"; };
+		83C1AE9B1E4B50890033BE22 /* ProducerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerCell.swift; sourceTree = "<group>"; };
+		83C1AE9E1E4B5EAC0033BE22 /* ProducerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerViewController.swift; sourceTree = "<group>"; };
+		83C1AE9F1E4B5EAC0033BE22 /* ProducerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProducerViewController.xib; sourceTree = "<group>"; };
+		83C1AEA21E4B5F1F0033BE22 /* ProducerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProducerViewModel.swift; sourceTree = "<group>"; };
+		83C1AEA41E4B7AFD0033BE22 /* FarmdropTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FarmdropTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		83C1AEDC1E4B97E60033BE22 /* FarmdropModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmdropModel.xcdatamodel; sourceTree = "<group>"; };
+		83C1AEDF1E4BD3F70033BE22 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		83C1AEE11E4BDABF0033BE22 /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		E5BA50688C977D7E3B45D7D2 /* Pods-FarmdropTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmdropTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FarmdropTest/Pods-FarmdropTest.release.xcconfig"; sourceTree = "<group>"; };
+		E7A4F49901051CAF96A2704A /* Pods_FarmdropTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmdropTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C1AE521E4B37220033BE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F40DE6288D8764B98AEE2A4 /* Pods_FarmdropTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C1AE681E4B37220033BE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D926319BB4DB509992E784 /* Pods_FarmdropTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C1AE4C1E4B37220033BE22 = {
+			isa = PBXGroup;
+			children = (
+				83C1AE571E4B37220033BE22 /* FarmdropTest */,
+				83C1AE6E1E4B37220033BE22 /* FarmdropTestTests */,
+				83C1AE561E4B37220033BE22 /* Products */,
+				98007FE663CD451FE9F2236F /* Pods */,
+				B4A29B8ADB87E81BD49688B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83C1AE561E4B37220033BE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE551E4B37220033BE22 /* FarmdropTest.app */,
+				83C1AE6B1E4B37220033BE22 /* FarmdropTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C1AE571E4B37220033BE22 /* FarmdropTest */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AEE31E4C63980033BE22 /* App */,
+				83C1AE8E1E4B48E60033BE22 /* List View */,
+				83C1AEDE1E4BD3BC0033BE22 /* Search */,
+				83C1AE9D1E4B5E8E0033BE22 /* Producer View */,
+				83C1AE821E4B3B220033BE22 /* Networking */,
+				83C1AE611E4B37220033BE22 /* Assets.xcassets */,
+			);
+			path = FarmdropTest;
+			sourceTree = "<group>";
+		};
+		83C1AE6E1E4B37220033BE22 /* FarmdropTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE6F1E4B37220033BE22 /* FarmdropTestTests.swift */,
+				83C1AE711E4B37220033BE22 /* Info.plist */,
+			);
+			path = FarmdropTestTests;
+			sourceTree = "<group>";
+		};
+		83C1AE821E4B3B220033BE22 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE831E4B3B2D0033BE22 /* Models */,
+				83C1AE861E4B3C740033BE22 /* Network.swift */,
+				83C1AE881E4B3E970033BE22 /* Network+Producers.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		83C1AE831E4B3B2D0033BE22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE841E4B3BCC0033BE22 /* Producer.swift */,
+				83C1AE8C1E4B47240033BE22 /* Image.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		83C1AE8E1E4B48E60033BE22 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE911E4B4A240033BE22 /* ProducerListViewController.swift */,
+				83C1AE8F1E4B490E0033BE22 /* ProducerListViewModel.swift */,
+				83C1AE991E4B4E700033BE22 /* ProducerCell.xib */,
+				83C1AE9B1E4B50890033BE22 /* ProducerCell.swift */,
+			);
+			name = "List View";
+			sourceTree = "<group>";
+		};
+		83C1AE9D1E4B5E8E0033BE22 /* Producer View */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE9E1E4B5EAC0033BE22 /* ProducerViewController.swift */,
+				83C1AEA21E4B5F1F0033BE22 /* ProducerViewModel.swift */,
+				83C1AE9F1E4B5EAC0033BE22 /* ProducerViewController.xib */,
+			);
+			name = "Producer View";
+			sourceTree = "<group>";
+		};
+		83C1AEDE1E4BD3BC0033BE22 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AEDF1E4BD3F70033BE22 /* ResultsTableViewController.swift */,
+				83C1AEE11E4BDABF0033BE22 /* ResultsViewModel.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		83C1AEE31E4C63980033BE22 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				83C1AE581E4B37220033BE22 /* AppDelegate.swift */,
+				83C1AE661E4B37220033BE22 /* Info.plist */,
+				83C1AEA41E4B7AFD0033BE22 /* FarmdropTest-Bridging-Header.h */,
+				83C1AEDB1E4B97E60033BE22 /* FarmdropModel.xcdatamodeld */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		98007FE663CD451FE9F2236F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31BA3A86B97052B35C831651 /* Pods-FarmdropTest.debug.xcconfig */,
+				E5BA50688C977D7E3B45D7D2 /* Pods-FarmdropTest.release.xcconfig */,
+				594E267A6A2C5D5758871F3C /* Pods-FarmdropTestTests.debug.xcconfig */,
+				0B9E5783DE6A0928FB0D070C /* Pods-FarmdropTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4A29B8ADB87E81BD49688B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7A4F49901051CAF96A2704A /* Pods_FarmdropTest.framework */,
+				06FF9DB5A95CCA417BA78835 /* Pods_FarmdropTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C1AE541E4B37220033BE22 /* FarmdropTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C1AE741E4B37220033BE22 /* Build configuration list for PBXNativeTarget "FarmdropTest" */;
+			buildPhases = (
+				482564F66620A3CD3D7FDAD2 /* [CP] Check Pods Manifest.lock */,
+				83C1AE511E4B37220033BE22 /* Sources */,
+				83C1AE521E4B37220033BE22 /* Frameworks */,
+				83C1AE531E4B37220033BE22 /* Resources */,
+				27A3031FD61A403DB477866B /* [CP] Embed Pods Frameworks */,
+				5A6911E0D149746C73A9CF28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmdropTest;
+			productName = FarmdropTest;
+			productReference = 83C1AE551E4B37220033BE22 /* FarmdropTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C1AE6A1E4B37220033BE22 /* FarmdropTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C1AE771E4B37220033BE22 /* Build configuration list for PBXNativeTarget "FarmdropTestTests" */;
+			buildPhases = (
+				06F892D467B46CAAA2E98109 /* [CP] Check Pods Manifest.lock */,
+				83C1AE671E4B37220033BE22 /* Sources */,
+				83C1AE681E4B37220033BE22 /* Frameworks */,
+				83C1AE691E4B37220033BE22 /* Resources */,
+				1960C56DF03C83CAF146FEDF /* [CP] Embed Pods Frameworks */,
+				1E11918F0D21BD53D7659D84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C1AE6D1E4B37220033BE22 /* PBXTargetDependency */,
+			);
+			name = FarmdropTestTests;
+			productName = FarmdropTestTests;
+			productReference = 83C1AE6B1E4B37220033BE22 /* FarmdropTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C1AE4D1E4B37220033BE22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Henry Everett";
+				TargetAttributes = {
+					83C1AE541E4B37220033BE22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					83C1AE6A1E4B37220033BE22 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83C1AE541E4B37220033BE22;
+					};
+				};
+			};
+			buildConfigurationList = 83C1AE501E4B37220033BE22 /* Build configuration list for PBXProject "FarmdropTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C1AE4C1E4B37220033BE22;
+			productRefGroup = 83C1AE561E4B37220033BE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C1AE541E4B37220033BE22 /* FarmdropTest */,
+				83C1AE6A1E4B37220033BE22 /* FarmdropTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C1AE531E4B37220033BE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C1AEA11E4B5EAC0033BE22 /* ProducerViewController.xib in Resources */,
+				83C1AE9A1E4B4E700033BE22 /* ProducerCell.xib in Resources */,
+				83C1AE621E4B37220033BE22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C1AE691E4B37220033BE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F892D467B46CAAA2E98109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1960C56DF03C83CAF146FEDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FarmdropTestTests/Pods-FarmdropTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E11918F0D21BD53D7659D84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FarmdropTestTests/Pods-FarmdropTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27A3031FD61A403DB477866B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FarmdropTest/Pods-FarmdropTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		482564F66620A3CD3D7FDAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6911E0D149746C73A9CF28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FarmdropTest/Pods-FarmdropTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C1AE511E4B37220033BE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C1AE8D1E4B47240033BE22 /* Image.swift in Sources */,
+				83C1AE921E4B4A240033BE22 /* ProducerListViewController.swift in Sources */,
+				83C1AE891E4B3E970033BE22 /* Network+Producers.swift in Sources */,
+				83C1AE9C1E4B50890033BE22 /* ProducerCell.swift in Sources */,
+				83C1AE901E4B490E0033BE22 /* ProducerListViewModel.swift in Sources */,
+				83C1AE871E4B3C740033BE22 /* Network.swift in Sources */,
+				83C1AEE21E4BDABF0033BE22 /* ResultsViewModel.swift in Sources */,
+				83C1AEDD1E4B97E60033BE22 /* FarmdropModel.xcdatamodeld in Sources */,
+				83C1AEE01E4BD3F70033BE22 /* ResultsTableViewController.swift in Sources */,
+				83C1AE851E4B3BCC0033BE22 /* Producer.swift in Sources */,
+				83C1AEA01E4B5EAC0033BE22 /* ProducerViewController.swift in Sources */,
+				83C1AE591E4B37220033BE22 /* AppDelegate.swift in Sources */,
+				83C1AEA31E4B5F1F0033BE22 /* ProducerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C1AE671E4B37220033BE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C1AE701E4B37220033BE22 /* FarmdropTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C1AE6D1E4B37220033BE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C1AE541E4B37220033BE22 /* FarmdropTest */;
+			targetProxy = 83C1AE6C1E4B37220033BE22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83C1AE721E4B37220033BE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C1AE731E4B37220033BE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C1AE751E4B37220033BE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BA3A86B97052B35C831651 /* Pods-FarmdropTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FarmdropTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.henryeverett.FarmdropTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FarmdropTest/FarmdropTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83C1AE761E4B37220033BE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BA50688C977D7E3B45D7D2 /* Pods-FarmdropTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FarmdropTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.henryeverett.FarmdropTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FarmdropTest/FarmdropTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		83C1AE781E4B37220033BE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594E267A6A2C5D5758871F3C /* Pods-FarmdropTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmdropTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.henryeverett.FarmdropTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmdropTest.app/FarmdropTest";
+			};
+			name = Debug;
+		};
+		83C1AE791E4B37220033BE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9E5783DE6A0928FB0D070C /* Pods-FarmdropTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmdropTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.henryeverett.FarmdropTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmdropTest.app/FarmdropTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C1AE501E4B37220033BE22 /* Build configuration list for PBXProject "FarmdropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C1AE721E4B37220033BE22 /* Debug */,
+				83C1AE731E4B37220033BE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C1AE741E4B37220033BE22 /* Build configuration list for PBXNativeTarget "FarmdropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C1AE751E4B37220033BE22 /* Debug */,
+				83C1AE761E4B37220033BE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C1AE771E4B37220033BE22 /* Build configuration list for PBXNativeTarget "FarmdropTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C1AE781E4B37220033BE22 /* Debug */,
+				83C1AE791E4B37220033BE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83C1AEDB1E4B97E60033BE22 /* FarmdropModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83C1AEDC1E4B97E60033BE22 /* FarmdropModel.xcdatamodel */,
+			);
+			currentVersion = 83C1AEDC1E4B97E60033BE22 /* FarmdropModel.xcdatamodel */;
+			path = FarmdropModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83C1AE4D1E4B37220033BE22 /* Project object */;
+}

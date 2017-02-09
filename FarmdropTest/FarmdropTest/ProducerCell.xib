@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="161" id="VTj-Yr-ODa" customClass="ProducerCell" customModule="FarmdropTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VTj-Yr-ODa" id="9Ah-2d-390">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="160.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Produer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7J4-gH-r5a">
+                        <rect key="frame" x="8" y="11" width="359" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD5-Rj-zP6">
+                        <rect key="frame" x="8" y="37.5" width="359" height="109"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zD5-Rj-zP6" firstAttribute="top" secondItem="7J4-gH-r5a" secondAttribute="bottom" constant="6" id="5MA-ar-ceS"/>
+                    <constraint firstItem="7J4-gH-r5a" firstAttribute="top" secondItem="9Ah-2d-390" secondAttribute="topMargin" constant="3" id="9Wt-fy-NsN"/>
+                    <constraint firstItem="zD5-Rj-zP6" firstAttribute="trailing" secondItem="9Ah-2d-390" secondAttribute="trailingMargin" id="CnQ-NG-ubx"/>
+                    <constraint firstItem="zD5-Rj-zP6" firstAttribute="leading" secondItem="9Ah-2d-390" secondAttribute="leadingMargin" id="Fwx-4w-DWv"/>
+                    <constraint firstItem="7J4-gH-r5a" firstAttribute="trailing" secondItem="9Ah-2d-390" secondAttribute="trailingMargin" id="KyY-P3-Szl"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zD5-Rj-zP6" secondAttribute="bottom" constant="6" id="VNa-JV-AdQ"/>
+                    <constraint firstItem="7J4-gH-r5a" firstAttribute="leading" secondItem="9Ah-2d-390" secondAttribute="leadingMargin" id="Xc9-fg-8CX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="producerDescriptionLabel" destination="zD5-Rj-zP6" id="8Jd-fT-8LZ"/>
+                <outlet property="producerNameLabel" destination="7J4-gH-r5a" id="bQF-JM-jW5"/>
+            </connections>
+            <point key="canvasLocation" x="-283.5" y="-309.5"/>
+        </tableViewCell>
+    </objects>
+</document>

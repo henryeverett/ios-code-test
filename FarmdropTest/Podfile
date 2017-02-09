@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FarmdropTest' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FarmdropTest
+  pod 'Overcoat', '~> 4.0.0-beta.2'
+  pod 'Overcoat+CoreData', '~> 4.0.0-beta.2'
+  pod 'MTLManagedObjectAdapter', '~> 1.0'
+  pod 'AFNetworkActivityLogger', git: 'https://github.com/AFNetworking/AFNetworkActivityLogger.git', branch: '3_0_0'
+  pod 'ReactiveSwift', '~> 1.0.0'
+  pod 'ReactiveCocoa'
+  pod 'Kingfisher', '~> 3.0'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'
+
+  target 'FarmdropTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
