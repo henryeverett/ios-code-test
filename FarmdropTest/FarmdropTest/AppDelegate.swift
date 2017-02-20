@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /**
      Set up the core data stack and its persistent store.
     */
-    func createCoreDataStack() {
+    private func createCoreDataStack() {
         
         // Find URL for data model in bundle
         guard let modelURL = Bundle.main.url(forResource: "FarmdropModel", withExtension: "momd") else {

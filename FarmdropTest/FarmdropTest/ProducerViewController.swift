@@ -18,7 +18,7 @@ class ProducerViewController: UIViewController {
     @IBOutlet weak var producerLocationLabel: UILabel!
     @IBOutlet weak var producerDescriptionTextView: UITextView!
     
-    var viewModel:ProducerViewModel!
+    var viewModel:ProducerViewModel
     
     init(producer:Producer) {
         viewModel = ProducerViewModel(producer: producer)
@@ -29,7 +29,7 @@ class ProducerViewController: UIViewController {
     }
     
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+        fatalError("ProducerViewController should not be initialized using coder.")
     }
 
     override func viewDidLoad() {

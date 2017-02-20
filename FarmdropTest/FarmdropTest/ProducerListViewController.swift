@@ -10,10 +10,10 @@ import UIKit
 
 class ProducerListViewController : UITableViewController, UISearchBarDelegate, UISearchControllerDelegate {
     
-    let viewModel = ProducerListViewModel()
+    private let viewModel = ProducerListViewModel()
     
-    var searchController:UISearchController!
-    var resultsController:ResultsTableViewController!
+    private var searchController:UISearchController?
+    private var resultsController:ResultsTableViewController?
     
     init() {
         super.init(style: .plain)
@@ -47,20 +47,20 @@ class ProducerListViewController : UITableViewController, UISearchBarDelegate, U
         
         // Prepare search results view controller
         resultsController = ResultsTableViewController(style: .plain)
-        resultsController.parentController = self
+        resultsController?.parentController = self
         
         // Set up search controller and apply results controller
         searchController = UISearchController(searchResultsController: resultsController)
-        searchController.dimsBackgroundDuringPresentation = true
+        searchController?.dimsBackgroundDuringPresentation = true
         
         // Add search bar to view
-        searchController.searchBar.sizeToFit()
-        tableView.tableHeaderView = searchController.searchBar
+        searchController?.searchBar.sizeToFit()
+        tableView.tableHeaderView = searchController?.searchBar
         
         // Register delegates
-        searchController.delegate = self
-        searchController.searchBar.delegate = self
-        searchController.searchResultsUpdater = resultsController.viewModel
+        searchController?.delegate = self
+        searchController?.searchBar.delegate = self
+        searchController?.searchResultsUpdater = resultsController?.viewModel
         
     }
     

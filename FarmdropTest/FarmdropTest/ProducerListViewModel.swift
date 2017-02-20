@@ -10,11 +10,11 @@ import ReactiveSwift
 
 class ProducerListViewModel {
     
-    var currentPage = 1
+    private var currentPage = 1
+    var producers = MutableProperty([Producer]())
     
     var nextPageSignal:SignalProducer<[Producer],NSError>?
-    var nextPageDisposable:Disposable?
-    var producers = MutableProperty([Producer]())
+    private var nextPageDisposable:Disposable?
     
     /**
      Loads the next page of resuts from the server.
